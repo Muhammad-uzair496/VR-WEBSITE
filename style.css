@@ -1,0 +1,1347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3vw;
+    gap: 9vw;
+}
+
+.logo {
+    height: 20vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.logo h1 {
+    font-size: 2.5vw;
+    color: rgb(207, 33, 207);
+}
+
+.navbar {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border: 1px solid rgb(249 100 5);
+    ;
+    color: white;
+    background-color: rgb(249 100 5);
+    ;
+    padding: 0.5vw 20px;
+    border-radius: 1vw;
+}
+
+/* navbar khatam hogya h ab first section shuru horaha h  */
+
+#first-mobile-section {
+    display: none;
+}
+
+#first-section {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 5vw;
+}
+
+.first-main-page-text {
+    height: 100%;
+    width: 50%;
+    margin: 4vw 3vw;
+}
+
+.first-main-page-text h1 {
+    font-size: 6.5vw;
+    font-weight: 900;
+    color: white;
+}
+
+.first-main-page-text h2 {
+    font-size: 4.2vw;
+    font-weight: 800;
+    margin-top: -1vw;
+    background-color: rgb(249 100 5);
+    ;
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: pehli 4s infinite;
+}
+
+.first-main-page-text p {
+    margin-top: 1vw;
+    font-size: 1.4vw;
+    opacity: 0.6;
+    color: white;
+}
+
+.first-main-page-text button {
+    margin-top: 3vw;
+    font-size: 1.4vw;
+    border: 1px solid black;
+    padding: 1vw 2vw;
+    border-radius: 3vw;
+    background-color: black;
+    background-color: rgb(249 100 5);
+    ;
+    border: none;
+}
+
+.first-main-page-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-main-page-video {
+    height: 100%;
+    width: 50%;
+    margin-right: 2vw;
+    padding-top: 2vw;
+}
+
+.first-main-page-video video {
+    height: 70%;
+    width: 100%;
+}
+
+.paragraph {
+    display: none;
+}
+
+/* first page section khatam hogaya h ab dusra section shuru horaha h */
+
+#second-section {
+    min-height: 100vh;
+    width: 100%;
+    padding-bottom: 5vw;
+    background: black;
+}
+
+.second-page-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.second-section-firstimg img {
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 3vw;
+    border: 3px solid rgb(249 100 5);
+    ;
+    margin-top: 7vw;
+}
+
+.second-section-firstimg h5 {
+    font-size: 1.4vw;
+    margin-bottom: 5vw;
+    color: rgb(249 100 5);
+    ;
+    padding: 2vw 5vw;
+}
+
+.second-section-secondimg img {
+    width: 18vw;
+    height: 43vh;
+    object-fit: cover;
+    border-radius: 3vw;
+    border: 3px solid rgb(249 100 5);
+    ;
+    margin-top: 7vw;
+}
+
+.second-section-secondimg h5 {
+    font-size: 1.4vw;
+    margin-bottom: 5vw;
+    color: rgb(249 100 5);
+    ;
+    padding: 2vw 2.5vw;
+}
+
+
+.second-section-thirdimg img {
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 3vw;
+    border: 3px solid rgb(249 100 5);
+    margin-top: 7vw;
+}
+
+.second-section-thirdimg h5 {
+    margin-bottom: 5vw;
+    font-size: 1.4vw;
+    color: rgb(249 100 5);
+    ;
+    padding: 2vw 7vw;
+}
+
+#mobile-first-section {
+    display: none;
+}
+
+#third-mobile-section {
+    display: none;
+}
+
+#fourth-mob-section {
+    display: none;
+}
+
+/* second section bhi ab khatam hua ab tesra section shuru horaha h  */
+
+#third-section {
+    background: black;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.third-section-images {
+    height: 100vh;
+    width: 50%;
+    padding-top: 7vw;
+}
+
+.third-section-images img {
+    height: 40%;
+    width: 35%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+
+.third-section-firstimg {
+    margin-left: 7vw;
+    border-top-left-radius: 3vw;
+    border-bottom-right-radius: 1vw;
+}
+
+.third-section-thirdimg {
+    margin-left: 7vw;
+    border-bottom-left-radius: 3vw;
+    border-top-right-radius: 1vw;
+}
+
+.third-section-secimg {
+    border-bottom-left-radius: 1vw;
+    border-top-right-radius: 3vw;
+
+}
+
+.third-section-fourthimg {
+    border-top-left-radius: 1vw;
+    border-bottom-right-radius: 3vw;
+}
+
+.third-section-text {
+    height: 50%;
+    width: 50%;
+    color: white;
+    margin-left: 5vw;
+}
+
+.third-section-text h1 {
+    font-size: 5.5vw;
+    color: rgb(249 100 5);
+}
+
+.third-section-text p {
+    font-size: 1.3vw;
+    padding-top: 2vw;
+    opacity: 0.6;
+}
+
+.third-section-text button {
+    font-size: 1.3vw;
+    margin-top: 2vw;
+    background-color: rgb(249 100 5);
+    ;
+    padding: 1vw 1.8vw;
+    border-radius: 3vw;
+    border: none;
+}
+
+.third-section-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* third section bhi khatam hua ab chothey ki bari h  */
+
+#fourth-section {
+    min-height: 100vh;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    padding-top: 10vw;
+
+}
+
+.fourth-section-text {
+    height: 100vh;
+    width: 50%;
+    margin-left: 5vw;
+}
+
+.fourth-section-text h1 {
+    font-size: 7vw;
+    color: rgb(249 100 5);
+}
+
+.fourth-section-text p {
+    font-size: 1.7vw;
+    padding-top: 2vw;
+    opacity: 0.6;
+}
+
+.paragraph {
+    display: none;
+}
+
+.fourth-section-text button {
+    border: none;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    margin-top: 4vw;
+    background-color: rgb(249 100 5);
+    ;
+}
+
+.fourth-section-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+.fourth-section-picture img {
+    height: 35vw;
+    width: 100%;
+    padding-top: -5vw;
+}
+
+/* fourth section bhi khatam hua ab footer ki bari h  */
+
+footer {
+    color: white;
+    background-color: rgb(249 100 5);
+    height: 40vh;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.icons a {
+    color: black;
+    padding: 0 2vw;
+    font-size: 3vw;
+}
+
+.icons i {
+    /* background-color: black; */
+    padding: 1vw;
+    border-radius: 55%;
+    opacity: 0.9;
+
+}
+
+.icons i:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+.text ul {
+    display: flex;
+    justify-content: center;
+}
+
+.text ul a {
+    text-decoration: none;
+    padding: 0vw 3vw;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.text ul li {
+    list-style-type: none;
+}
+
+.text a:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5vw;
+    color: black;
+}
+
+.copyright a {
+    color: black;
+}
+
+.copyright p {
+    font-size: 1.2vw;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.3vw;
+        gap: 9vw;
+    }
+
+
+    nav a:hover {
+        border: none;
+        ;
+        color: white;
+        background-color: black;
+        ;
+        padding: 0vw 0px;
+        border-radius: 0vh;
+    }
+
+    .logo {
+        height: 10vh;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .logo img {
+        width: 80%;
+    }
+
+    .navbar {
+        height: 100%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.9vw;
+    }
+
+    /* navbar bilkul sahi responsive hochuka h  */
+
+    #first-section {
+        height: 70vh;
+        width: 100vw;
+        display: inline-block;
+        background-color: black;
+        display: none;
+    }
+
+
+    #first-mobile-section {
+        display: inherit;
+    }
+
+    .first-main-page-text {
+        height: 35vh;
+        width: 100%;
+        margin-top: 8vw;
+    }
+
+    .first-main-page-text h1 {
+        font-size: 16vw;
+        font-weight: 900;
+        color: white;
+        padding-left: 2vw;
+    }
+
+    .first-main-page-text h2 {
+        font-size: 9vw;
+        font-weight: 900;
+        margin-top: -3vw;
+        padding-left: 2vw;
+        background-color: rgb(249 100 5);
+
+    }
+
+    .first-main-page-text p {
+        margin-top: 1vw;
+        font-size: 3.5vw;
+        padding-left: 2vw;
+        opacity: 0.6;
+        color: white;
+    }
+
+    .first-paragraph {
+        display: none;
+
+    }
+
+    .first-main-page-text button {
+        margin-top: 3vw;
+        margin-left: 2vw;
+        font-size: 4vw;
+        border: 1px solid black;
+        padding: 1vw 2vw;
+        border-radius: 3vw;
+        background-color: black;
+        background-color: rgb(249 100 5);
+        ;
+        border: none;
+    }
+
+    .first-main-page-text button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .first-main-page-video {
+        height: 100vh;
+        width: 100%;
+        margin-right: 0vw;
+        margin-top: -38vh;
+    }
+
+    .first-main-page-video video {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .paragraph {
+        display: inherit;
+    }
+
+    /* first page section khatam hogaya h ab dusra section shuru horaha h */
+
+    .second-page {
+        display: none;
+    }
+
+    #mobile-first-section {
+        display: inherit;
+        min-height: 70vh;
+        width: 100%;
+        padding-bottom: 5vw;
+        background: black;
+        margin-top: -29vw;
+    }
+
+    .second-page-img {
+        display: inline-block;
+    }
+
+    .second-page-firstimg img {
+        width: 90vw;
+        height: 35vh;
+        margin: 3.5vw;
+        object-fit: cover;
+        border-radius: 2vw;
+        border: 3px solid rgb(249 100 5);
+        ;
+        margin-top: 0vw;
+    }
+
+    .second-page-firstimg h5 {
+        font-size: 4vw;
+        margin-bottom: 0vw;
+        color: rgb(249 100 5);
+        ;
+        padding: 0vw 0vw 10vw 30vw;
+    }
+
+    .second-page-secondimg img {
+        width: 90vw;
+        height: 35vh;
+        margin: 3.5vw;
+        object-fit: cover;
+        border-radius: 2vw;
+        border: 3px solid rgb(249 100 5);
+        ;
+        margin-top: 0vw;
+    }
+
+    .second-page-secondimg h5 {
+        font-size: 4vw;
+        margin-bottom: 0vw;
+        color: rgb(249 100 5);
+        ;
+        padding: 0vw 0vw 10vw 30vw;
+    }
+
+    .second-page-thirdimg img {
+        width: 90vw;
+        height: 35vh;
+        margin: 3.5vw;
+        object-fit: cover;
+        border-radius: 2vw;
+        border: 3px solid rgb(249 100 5);
+        ;
+        margin-top: 0vw;
+    }
+
+    .second-page-thirdimg h5 {
+        font-size: 4vw;
+        margin-bottom: 0vw;
+        color: rgb(249 100 5);
+        ;
+        padding: 0vw 0vw 10vw 30vw;
+    }
+
+    /* second section bhi ab khatam hua ab tesra section shuru horaha h  */
+
+    #third-section {
+        background: black;
+        max-height: 90vh;
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-evenly;
+        display: none;
+    }
+
+    #third-mobile-section {
+        display: inherit;
+    }
+
+    .third-section-images {
+        height: 50vh;
+        width: 100%;
+        padding-top: 15vw;
+    }
+
+    .third-section-images img {
+        height: 50%;
+        width: 45%;
+        object-fit: cover;
+        opacity: 0.9;
+    }
+
+
+    .third-section-firstimg {
+        margin-left: 4vw;
+        border-top-left-radius: 3vw;
+        border-bottom-right-radius: 1vw;
+    }
+
+    .third-section-thirdimg {
+        margin-left: 4vw;
+        border-bottom-left-radius: 3vw;
+        border-top-right-radius: 1vw;
+    }
+
+    .third-section-secimg {
+        border-bottom-left-radius: 1vw;
+        border-top-right-radius: 3vw;
+
+    }
+
+    .third-section-fourthimg {
+        border-top-left-radius: 1vw;
+        border-bottom-right-radius: 3vw;
+    }
+
+    .third-section-text {
+        height: 50%;
+        width: 70%;
+        color: white;
+    }
+
+    .third-section-text h1 {
+        font-size: 15vw;
+        color: rgb(249 100 5);
+        line-height: 15vw;
+    }
+
+    .third-section-text p {
+        font-size: 3.8vw;
+        padding-top: 2vw;
+        opacity: 0.6;
+    }
+
+    .third-section-text button {
+        font-size: 3.8vw;
+        margin-top: 4vw;
+        background-color: rgb(249 100 5);
+        padding: 1vw 1.8vw;
+        border-radius: 3vw;
+        border: none;
+    }
+
+    .third-section-text button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* third section bhi khatam hua ab chothey ki bari h  */
+
+    #fourth-section {
+        min-height: 100vh;
+        width: 100%;
+        background: black;
+        color: white;
+        display: none;
+    }
+
+    #fourth-mob-section {
+        display: inherit;
+    }
+
+    .fourth-section-text {
+        height: 30vh;
+        width: 100%;
+        margin-left: 0vw;
+        margin-top: 30vw;
+    }
+
+    .fourth-section-text h1 {
+        font-size: 18vw;
+        font-weight: 900;
+        color: rgb(249 100 5);
+        padding-left: 0vw;
+        margin-left: 5vw;
+        margin-left: 4vw;
+        line-height: 17vw;
+    }
+
+    .fourth-section-text p {
+        margin-left: 5vw;
+        font-size: 3vw;
+        padding-top: 6vw;
+        opacity: 0.6;
+        padding-left: 0vw;
+        margin-left: 4vw;
+    }
+
+    .fourth-section-text button {
+        border: none;
+        padding: 1vw 4vw;
+        border-radius: 40px;
+        font-size: 4vw;
+        margin-top: 8vw;
+        background-color: rgb(249 100 5);
+        margin-left: 4vw;
+    }
+
+    .fourth-section-text button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .fourth-section-picture img {
+        height: 60vh;
+        width: 90%;
+        padding-top: 35vw;
+        object-fit: cover;
+        margin-left: 4.5vw;
+        opacity: 1;
+    }
+
+    /* fourth section bhi khatam hua ab footer ki bari h  */
+
+    footer {
+        color: white;
+        background-color: rgb(249 100 5);
+        height: 20vh;
+        width: 100%;
+        /* overflow-y: hidden; */
+        margin-top: 10vw;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        padding: 2vw;
+        padding-top: 5vw;
+    }
+
+    .icons a {
+        color: black;
+        padding: 0 2vw;
+        font-size: 8vw;
+    }
+
+    .icons i {
+        /* background-color: black; */
+        padding-top: 1vw;
+        border-radius: 55%;
+        opacity: 0.9;
+
+    }
+
+    .icons i:hover {
+        opacity: 0.8;
+        color: white;
+    }
+
+    .text ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text ul a {
+        text-decoration: none;
+        padding: 5vw 5vw;
+        color: black;
+        font-size: 3vw;
+    }
+
+    .text ul li {
+        list-style-type: none;
+    }
+
+    .text a:hover {
+        color: white;
+        opacity: 0.8;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        margin-top: 4.5vw;
+        color: black;
+    }
+
+    .copyright a {
+        color: black;
+    }
+
+    .copyright p {
+        font-size: 2.5vw;
+    }
+
+    hr {
+        margin-bottom: 10vw;
+    }
+
+}
+
+@media (min-width:501px) and (max-width:1000px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.3vw;
+        gap: 9vw;
+    }
+
+    .logo {
+        height: 20vh;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+
+
+    .navbar {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.5vw;
+    }
+
+    nav a:hover {
+        border: 1px solid rgb(249 100 5);
+        ;
+        color: white;
+        background-color: rgb(249 100 5);
+        ;
+        padding: 0.5vw 20px;
+        border-radius: 1vw;
+    }
+
+    /* navbar khatam hogya h ab first section shuru horaha h  */
+
+    #first-section {
+        height: 70vh;
+        width: 100vw;
+        display: inline-block;
+        background-color: black;
+        display: none;
+    }
+
+
+    #first-mobile-section {
+        display: inherit;
+    }
+
+    .first-main-page-text {
+        height: 35vh;
+        width: 100%;
+        margin-top: 0vw;
+    }
+
+    .first-main-page-text h1 {
+        font-size: 12vw;
+        font-weight: 900;
+        color: white;
+        padding-left: 2vw;
+    }
+
+    .first-main-page-text h2 {
+        font-size: 9vw;
+        font-weight: 900;
+        margin-top: -3vw;
+        padding-left: 2vw;
+        background-color: rgb(249 100 5);
+
+    }
+
+    .first-main-page-text p {
+        margin-top: 1vw;
+        font-size: 3.5vw;
+        padding-left: 2vw;
+        opacity: 0.6;
+        color: white;
+    }
+
+    .first-paragraph {
+        display: none;
+
+    }
+
+    .first-main-page-text button {
+        margin-top: 3vw;
+        margin-left: 2vw;
+        font-size: 3vw;
+        border: 1px solid black;
+        padding: 1vw 2vw;
+        border-radius: 3vw;
+        background-color: black;
+        background-color: rgb(249 100 5);
+        ;
+        border: none;
+    }
+
+    .first-main-page-text button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .first-main-page-video {
+        height: 100vh;
+        width: 90%;
+        margin-right: 0vw;
+        margin-top: -24vh;
+        margin-left: 5vw;
+    }
+
+    .first-main-page-video video {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .paragraph {
+        display: inherit;
+    }
+
+    /* first section kahtam  */
+
+    .second-page {
+        display: none;
+    }
+
+    #mobile-first-section {
+        display: inherit;
+        min-height: 70vh;
+        width: 100%;
+        padding-bottom: 5vw;
+        background: black;
+    }
+
+    .second-page-img {
+        display: inline-block;
+        margin-top: 0vw;
+    }
+
+    .second-page-firstimg img {
+        width: 80vw;
+        height: 40vh;
+        margin-left: 8vw;
+        object-fit: cover;
+        border-radius: 2vw;
+        border: 3px solid rgb(249 100 5);
+        ;
+        margin-top: 0vw;
+    }
+
+    .second-page-firstimg h5 {
+        font-size: 4vw;
+        margin-bottom: 0vw;
+        color: rgb(249 100 5);
+        ;
+        padding: 0vw 0vw 10vw 30vw;
+    }
+
+    .second-page-secondimg img {
+        width: 80vw;
+        height: 40vh;
+        margin-left: 8vw;
+        object-fit: cover;
+        border-radius: 2vw;
+        border: 3px solid rgb(249 100 5);
+        ;
+        margin-top: 0vw;
+    }
+
+    .second-page-secondimg h5 {
+        font-size: 4vw;
+        margin-bottom: 0vw;
+        color: rgb(249 100 5);
+        ;
+        padding: 0vw 0vw 10vw 30vw;
+    }
+
+    .second-page-thirdimg img {
+        width: 80vw;
+        height: 40vh;
+        margin-left: 8vw;
+        object-fit: cover;
+        border-radius: 2vw;
+        border: 3px solid rgb(249 100 5);
+        ;
+        margin-top: 0vw;
+    }
+
+    .second-page-thirdimg h5 {
+        font-size: 4vw;
+        margin-bottom: 0vw;
+        color: rgb(249 100 5);
+        ;
+        padding: 0vw 0vw 10vw 30vw;
+    }
+
+    /* second section bhi ab khatam hua ab tesra section shuru horaha h  */
+
+    #third-section {
+        background: black;
+        max-height: 90vh;
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-evenly;
+        display: none;
+    }
+
+    #third-mobile-section {
+        display: inherit;
+    }
+
+    .third-section-images {
+        height: 50vh;
+        width: 100%;
+        padding-top: 15vw;
+    }
+
+    .third-section-images img {
+        height: 50%;
+        width: 45%;
+        object-fit: cover;
+        opacity: 0.9;
+    }
+
+
+    .third-section-firstimg {
+        margin-left: 4vw;
+        border-top-left-radius: 3vw;
+        border-bottom-right-radius: 1vw;
+    }
+
+    .third-section-thirdimg {
+        margin-left: 4vw;
+        border-bottom-left-radius: 3vw;
+        border-top-right-radius: 1vw;
+    }
+
+    .third-section-secimg {
+        border-bottom-left-radius: 1vw;
+        border-top-right-radius: 3vw;
+
+    }
+
+    .third-section-fourthimg {
+        border-top-left-radius: 1vw;
+        border-bottom-right-radius: 3vw;
+    }
+
+    .third-section-text {
+        height: 50%;
+        width: 70%;
+        color: white;
+    }
+
+    .third-section-text h1 {
+        font-size: 13vw;
+        color: rgb(249 100 5);
+        line-height: 13vw;
+    }
+
+    .third-section-text p {
+        font-size: 3.8vw;
+        padding-top: 2vw;
+        opacity: 0.6;
+    }
+
+    .third-section-text button {
+        font-size: 3.8vw;
+        margin-top: 4vw;
+        background-color: rgb(249 100 5);
+        padding: 1vw 1.8vw;
+        border-radius: 3vw;
+        border: none;
+    }
+
+    .third-section-text button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* third section bhi khatam hua ab chothey ki bari h  */
+
+    #fourth-section {
+        min-height: 100vh;
+        width: 100%;
+        background: black;
+        color: white;
+        display: none;
+    }
+
+    #fourth-mob-section {
+        display: inherit;
+    }
+
+    .fourth-section-text {
+        height: 30vh;
+        width: 100%;
+        margin-left: 0vw;
+        margin-top: 30vw;
+    }
+
+    .fourth-section-text h1 {
+        font-size: 15vw;
+        font-weight: 900;
+        color: rgb(249 100 5);
+        padding-left: 0vw;
+        margin-left: 5vw;
+        margin-left: 4vw;
+        line-height: 17vw;
+    }
+
+    .fourth-section-text p {
+        margin-left: 5vw;
+        font-size: 3vw;
+        padding-top: 6vw;
+        opacity: 0.6;
+        padding-left: 0vw;
+        margin-left: 4vw;
+    }
+
+    .fourth-section-text button {
+        border: none;
+        padding: 1vw 4vw;
+        border-radius: 40px;
+        font-size: 3vw;
+        margin-top: 8vw;
+        background-color: rgb(249 100 5);
+        margin-left: 4vw;
+    }
+
+    .fourth-section-text button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .fourth-section-picture img {
+        height: 80vh;
+        width: 90%;
+        padding-top: 35vw;
+        object-fit: cover;
+        margin-left: 4.5vw;
+        opacity: 1;
+    }
+
+    /* fourth section bhi khatam hua ab footer ki bari h  */
+
+    footer {
+        color: white;
+        background-color: rgb(249 100 5);
+        height: 30vh;
+        width: 100%;
+        /* overflow-y: hidden; */
+        margin-top: 10vw;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        padding: 2vw;
+        padding-top: 5vw;
+    }
+
+    .icons a {
+        color: black;
+        padding: 0 2vw;
+        font-size: 8vw;
+    }
+
+    .icons i {
+        /* background-color: black; */
+        padding-top: 1vw;
+        border-radius: 55%;
+        opacity: 0.9;
+
+    }
+
+    .icons i:hover {
+        opacity: 0.8;
+        color: white;
+    }
+
+    .text ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text ul a {
+        text-decoration: none;
+        padding: 5vw 5vw;
+        color: black;
+        font-size: 3vw;
+    }
+
+    .text ul li {
+        list-style-type: none;
+    }
+
+    .text a:hover {
+        color: white;
+        opacity: 0.8;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        margin-top: 4.5vw;
+        color: black;
+    }
+
+    .copyright a {
+        color: black;
+    }
+
+    .copyright p {
+        font-size: 2.5vw;
+    }
+
+    hr {
+        margin-bottom: 10vw;
+        display: none;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1300px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .first-main-page-video {
+        height: 100%;
+        width: 50%;
+        margin-right: 2vw;
+        padding-top: 0vw;
+        margin-top: -6vw;
+    }
+
+
+    .third-section-images {
+        height: 100vh;
+        width: 50%;
+        padding-top: 20vw;
+    }
+
+    .third-section-images img {
+        height: 30%;
+        width: 35%;
+        object-fit: cover;
+        opacity: 0.9;
+    }
+
+
+}
